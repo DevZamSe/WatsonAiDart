@@ -19,9 +19,9 @@ class WatsonController extends GetxController{
 
   void _getSession() async{
     final auth = IbmWatsonAssistantAuth(
-      assistantId: '2fe2afe1-fbc5-4c5b-bc43-a3599eacb722',
-      url: 'https://api.us-south.assistant.watson.cloud.ibm.com/instances/0e1da882-a1c2-45ab-86c2-993eedf03921',
-      apikey: '5UyZ_ARO4QBG7GyZalyradCatEfHIbt95OAv4Z-PH0aq',
+      assistantId: 'id',
+      url: 'url',
+      apikey: 'apiKey',
     );
 
     this._bot = IbmWatsonAssistant(auth);
